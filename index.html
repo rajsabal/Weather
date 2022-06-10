@@ -9,7 +9,10 @@
 </head>
 <body>
     <div class="weather">
-        <input type="search" class="weather_search" placeholder="Your City">
+        <input type="search" list="suggestions" class="weather_search" placeholder="Your City">
+        <datalist id="suggestions">
+       
+        </datalist>
     <div class="weather_today">
         <div class="weather_details">
             <h2 class="weather_city">City</h2>
@@ -47,7 +50,8 @@
         <article class="weather_forecast_item">
             <img src="images/clear-sky.png" alt="cleat sky" class="weather_forecast_icon">
             <h3 class="weather_forecast_day">Day</h3>
-            <p class="weather_forecast_temperature"><span class="value">+25</span>&deg:C</p>
+            <p class="max_temp"><span class="value">+25</span>&deg:C</p>
+            <p class="min_temp"><span class="value">+25</span>&deg:C</p>
         </article>
     </div>
     </div>
