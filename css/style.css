@@ -32,6 +32,7 @@ body{
     font-family: 'Open Sans',Arial,sans-serif;
     font-weight: 300;
     font-size: 22px;
+    filter:blur(10px)
 }
 .weather{
     width: 80%;
@@ -111,3 +112,14 @@ body{
       
       flex-grow: 1;
   }
+  .min_temp{
+     font-style: bold;
+      margin: 0%;
+      margin-block-start: 0em; 
+      opacity: 60%;
+  }
+  .max_temp{
+   
+    margin: 0%;
+    margin-block-start: 0em;
+}
